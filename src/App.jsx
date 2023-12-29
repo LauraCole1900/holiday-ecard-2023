@@ -1,13 +1,11 @@
 import Aurora from './components/aurora';
 import StarrySky from './components/starry-sky';
-// import Snowfall from 'react-snowfall';
 import './App.css'
 
 function App() {
 
   return (
     <>
-      {/* <Snowfall /> */}
       <StarrySky />
       <Aurora />
       {/* eslint-disable-next-line react/no-unescaped-entities */}
