@@ -37,7 +37,7 @@ This project is intended to be used to wish you "happy holidays."
 
 ## Technologies Used
 
-[![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React%20Bootstrap-61dbfb)](https://react-bootstrap.github.io/) [![React-snowfall](https://img.shields.io/badge/built%20with-React%20Snowfall-cc3534)](https://www.npmjs.com/package/react-snowfall)
+[![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![Vite](https://img.shields.io/badge/built%20with-Vite-bd34fe)](https://vitejs.dev/)
 
 ## Tests
 
