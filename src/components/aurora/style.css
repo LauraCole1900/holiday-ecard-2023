@@ -1,0 +1,28 @@
+#container {
+  height: 100vh;
+  width: 80vw;
+  position: fixed;
+  top: 0;
+  background-size: 17% 100vh;
+  background-image: linear-gradient(to bottom right, #000019, 75%, #00ffae);
+  background-repeat: repeat-x;
+  opacity: .5;
+}
+
+@media only screen and (min-width: 481px) {
+  #container {
+    background-size: 10% 100vh;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #container {
+    background-size: 5% 100vh;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #container {
+    background-size: 2.5% 100vh;
+  }
+}

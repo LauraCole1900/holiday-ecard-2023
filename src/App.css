@@ -2,8 +2,25 @@
   --midnight: #000019;
   --light: #fff;
   --blue-transp: rgb(0, 0, 255, 0);
+  --aurora-green: #00ffae;
 }
 
 html {
   background-color: var(--midnight);
+  font-family: "Eagle Lake", serif;
+}
+
+h1 {
+  font-size: 5em !important;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+.text {
+  position: relative;
+  top: auto;
+  padding-left: 12%;
+  min-width: 50vw;
 }

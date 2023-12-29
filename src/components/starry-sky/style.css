@@ -1,6 +1,5 @@
 body {
   background-color: #000019;
-  /* background: linear-gradient(to right, #032c4b, #304f00); */
 }
 
 #sky {
@@ -31,9 +30,9 @@ body {
   margin: 0;
   opacity: 0;
   padding: 0;
-  background-color: white;
+  background-color: var(--light);
   position: absolute;
-  background: linear-gradient(-45deg, white, rgba(0, 0, 255, 0));
-  filter: drop-shadow(0 0 6px white);
+  background: linear-gradient(-45deg, var(--light), var(--blue-transp));
+  filter: drop-shadow(0 0 6px var(--light));
   overflow: hidden;
 }
