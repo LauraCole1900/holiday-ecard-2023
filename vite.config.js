@@ -3,10 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/holiday-ecard-2023/build',
-  build: {
-    outDir: 'build'
-  },
+  base: '/holiday-ecard-2023/',
   plugins: [react()],
   server: {
     port: 3000,
