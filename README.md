@@ -25,7 +25,7 @@ This is a simple little React-based "Happy Holidays" e-card.
 ## Screenshot
 
 Happy Holidays:
-![Happy holidays](images/#.png)
+![Happy holidays](images/holiday-ecard-2023.png)
 
 ## Installation Instructions
 
