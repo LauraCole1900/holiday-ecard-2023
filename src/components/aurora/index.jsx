@@ -4,7 +4,8 @@ const Aurora = () => {
 
   return(
     <>
-      <div id="container"></div>
+      <div id="aurora-1"></div>
+      <div id="aurora-2"></div>
     </>
   )
 }

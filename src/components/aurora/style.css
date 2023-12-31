@@ -1,28 +1,73 @@
-#container {
+:root {
+  --midnight: #000019;
+  --aurora-green: #00ffae;
+  --aurora-pink: #e100ff;
+  --aurora-yellow: #bbff00;
+  --aurora-gradient: linear-gradient(var(--midnight), 50%, var(--aurora-green), var(--aurora-pink), var(--aurora-yellow));
+}
+
+#aurora-1,
+#aurora-2 {
   height: 100vh;
   width: 80vw;
+  background-image: var(--aurora-gradient);
+  box-shadow: 5px 0 5px 5px var(--aurora-gradient);
   position: fixed;
   top: 0;
   background-size: 17% 100vh;
-  background-image: linear-gradient(to bottom right, #000019, 75%, #00ffae);
   background-repeat: repeat-x;
-  opacity: .5;
+  overflow: hidden;
+  filter: blur(35px);
+}
+
+#aurora-1 {
+  left: -10px;
+  opacity: 0.5;
+  transform: skew(2deg);
+  animation: fadeInOutAnimation ease 8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+#aurora-2 {
+  left: -50px;
+  opacity: 0;
+  transform: skew(-7deg);
+  animation: fadeInOutAnimation ease 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+@keyframes fadeInOutAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @media only screen and (min-width: 481px) {
-  #container {
+  #aurora-1,
+  #aurora-2 {
     background-size: 10% 100vh;
   }
 }
 
 @media only screen and (min-width: 769px) {
-  #container {
+  #aurora-1,
+  #aurora-2 {
     background-size: 5% 100vh;
   }
 }
 
 @media only screen and (min-width: 1025px) {
-  #container {
+  #aurora-1,
+  #aurora-2 {
     background-size: 2.5% 100vh;
   }
 }

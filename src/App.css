@@ -7,20 +7,51 @@
 
 html {
   background-color: var(--midnight);
-  font-family: "Eagle Lake", serif;
+  font-family: "Eagle Lake", serif !important;
 }
 
 h1 {
-  font-size: 5em !important;
+  font-size: 2em !important;
 }
 
 h2 {
-  font-size: 3.5em;
+  font-size: 1.5em;
+  text-align: right;
 }
 
 .text {
   position: relative;
   top: auto;
-  padding-left: 12%;
+  padding: 10% 5% 10% 12%;
   min-width: 50vw;
+}
+
+@media only screen and (min-width: 481px) {
+  h1 {
+    font-size: 3em !important;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  h1 {
+    font-size: 4em !important;
+  }
+
+  h2 {
+    font-size: 2.9em;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  h1 {
+    font-size: 5em !important;
+  }
+
+  h2 {
+    font-size: 3.5em;
+  }
 }
