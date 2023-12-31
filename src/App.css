@@ -20,6 +20,7 @@ h2 {
 }
 
 .text {
+  color: var(--light) !important;
   position: relative;
   top: auto;
   padding: 10% 5% 10% 12%;
