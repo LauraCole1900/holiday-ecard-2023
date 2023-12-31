@@ -47,6 +47,8 @@ npm run test
 
 "Twinkling Night Sky" animation created by [Sharna Hossain](https://codepen.io/sharnajh) and found [here](https://codepen.io/sharnajh/pen/WNvppRy)
 
+Star favicon by [Iconpacks](https://iconpacks.net/?utm_source=link-attribution&utm_content=7224)
+
 ## Contributing
 
 N/A
